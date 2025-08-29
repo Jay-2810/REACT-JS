@@ -1,8 +1,11 @@
-
+import One from './One.jsx'
 
 function App() {
   return (
-    <h1>Vite | Jay Patel</h1>
+    <>
+      <h1>Ganesha</h1>
+      <One />
+    </>
   )
 }
 
