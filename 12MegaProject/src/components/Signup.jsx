@@ -56,7 +56,7 @@ function Signup(){
                         })}
                         />
                         <Input 
-                        label="Email"
+                        label="Email: "
                         placeholder="Enter your email"
                         type="email"
                         {...register("email",{
@@ -69,7 +69,7 @@ function Signup(){
                         })}
                         />
                         <Input 
-                        label="Password"
+                        label="Password: "
                         type="password"
                         placeholder="Enter your password"
                         {...register("password",{

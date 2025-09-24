@@ -7,11 +7,12 @@ function Home(){
     const [posts,setPosts]=useState([])
     useEffect(()=>{
         appwriteService.getAllPost().then((posts)=>{
-            setPosts(posts.documents)
+            if(posts)
+                setPosts(posts.documents)
         })
     },[])
 
-    if(posts.length===0){
+    if(posts.length === 0){
         return (
             <div className="w-full py-8 mt-4 text-center">
                 <Container>
