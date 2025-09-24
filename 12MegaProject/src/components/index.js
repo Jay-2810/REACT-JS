@@ -19,7 +19,6 @@ export{
     LogoutBtn,
     Container,
     Button,
-    Input,
     RTE,
     Signup,
     Login,
@@ -27,4 +26,5 @@ export{
     PostCard,
     AuthLayout,
     Select,
+    Input,
 };
